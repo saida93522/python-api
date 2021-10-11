@@ -23,6 +23,7 @@ from pprint import pprint
 key = os.environ.get('WEATHER_KEY')  # map of all env in os
 weather_url = 'https://api.openweathermap.org/data/2.5/weather'
 # Weather
+# The unix time stamp is a way to track time as a running total of seconds. This count starts at the Unix Epoch on January 1st, 1970 at UTC
 
 
 def main():
